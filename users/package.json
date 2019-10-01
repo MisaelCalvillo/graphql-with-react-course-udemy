@@ -4,7 +4,7 @@
   "description": "Build a basic express server using GraphQL",
   "main": "index.js",
   "scripts": {
-    "json:server": "json-server --wathc db.json"
+    "json:server": "json-server --watch db.json"
   },
   "author": "@MisaelCalvillo",
   "license": "MIT",
