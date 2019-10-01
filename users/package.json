@@ -4,7 +4,7 @@
   "description": "Build a basic express server using GraphQL",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "json:server": "json-server --wathc db.json"
   },
   "author": "@MisaelCalvillo",
   "license": "MIT",
@@ -13,5 +13,8 @@
     "express-graphql": "0.9.0",
     "graphql": "14.5.8",
     "lodash": "4.17.15"
+  },
+  "devDependencies": {
+    "json-server": "0.15.1"
   }
 }
