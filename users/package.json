@@ -4,6 +4,7 @@
   "description": "Build a basic express server using GraphQL",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon server.js",
     "json:server": "json-server --watch db.json"
   },
   "author": "@MisaelCalvillo",
